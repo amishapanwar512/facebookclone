@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/input.css">
+    <title>Document</title>
+</head>
+<body class=" bg-gray-300">
+    <div class="container flex">
+        <div class="left absolute left-52 top-36">
+        <img src="download.png" alt="facebook.png"><br>
+        <p class="text-black font-bold">Facebook helps you connect and share with <br>
+            the people in your life.</p>
+        </div>
+        <div class="right  bg-white px-3 py-5  shadow-black rounded-xl space-y-3 absolute right-52 top-32">
+            <input class="py-2 px-3 focus:outline-none border-2 border-gray-300 focus:border-gray-500 rounded-sm" type="text" placeholder="Email Address or Phone Number" size=36><hr>
+            <input class="py-2 px-3 focus:outline-none border-2 border-gray-300 focus:border-gray-500 rounded-sm" type="password" placeholder="Password"  size=36 ><hr>
+          
+            <button class="bg-blue-700 text-white font-bold px-32 py-1 rounded-sm">...Login In...</button>
+            
+            <br>
+            <a href="#" class="text-sm text-blue-600">Forget password?</a>
+            <hr>
+            <button class="bg-green-600 text-white font-bold px-28 py-1 rounded-sm">Create Account</button>
+        </div>
+    </div>
+    <div class="footer bg-white absolute bottom-0 right-0 left-0 text-center text-blue-600 font-bold py-10">
+        Made by meta.
+        
+    </div> 
+</body>
+
+</html>
